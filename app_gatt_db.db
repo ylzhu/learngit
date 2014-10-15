@@ -1,0 +1,24 @@
+/******************************************************************************
+ *  Copyright Cambridge Silicon Radio Limited 2012-2014
+ *  Part of CSR uEnergy SDK 2.3.0
+ *  Application version 2.3.0.0
+ *
+ *  FILE
+ *      app_gatt_db.db
+ *
+ *  DESCRIPTION
+ *      This file defines the database for mouse by including all the services
+ *      used by the application in JSON format.
+ *
+ *****************************************************************************/
+
+/* Include the database files of all the services which will be used by the
+ * application. The uEnergy SDK creates the GATT database using this db file.
+ */ 
+
+#include "gap_service_db.db"
+#include "gatt_service_db.db"
+#include "hid_service_db.db"
+#include "battery_service_db.db" 
+#include "scan_parameters_db.db"
+#include "dev_info_service_db.db"

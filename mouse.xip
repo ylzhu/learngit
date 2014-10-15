@@ -1,0 +1,74 @@
+<project buildenvironment="{067c869e-5bd9-4595-9f4c-60348133ad8e}" buildenvironmentname="uEnergy" executionenvironmentoption="XAP2+ P0 ELF DWARF BINUTILS UENERGYSDK" buildenvironmentoption="UENERGYSDK" executionenvironmentname="uEnergy" name="CSR uEnergy" executionenvironment="{39e65239-59f4-4d78-b84a-26eaebfaa4de}" >
+ <folder name="C Files" >
+  <extension name="c" />
+  <file path="battery_service.c" />
+  <file path="gap_service.c" />
+  <file path="hid_service.c" />
+  <file path="mouse.c" />
+  <file path="mouse_gatt.c" />
+  <file path="mouse_hw.c" />
+  <file path="nvm_access.c" />
+  <file path="scan_param_service.c" />
+  <file path="sensor.c" />
+  <file path="dev_info_service.c" />
+ </folder>
+ <folder name="Header Files" >
+  <extension name="h" />
+  <file path="app_gatt.h" />
+  <file path="appearance.h" />
+  <file path="battery_service.h" />
+  <file path="battery_uuids.h" />
+  <file path="dev_info_uuids.h" />
+  <file path="gap_conn_params.h" />
+  <file path="gap_service.h" />
+  <file path="gap_uuids.h" />
+  <file path="gatt_service_uuid.h" />
+  <file path="hid_service.h" />
+  <file path="hid_uuids.h" />
+  <file path="mouse.h" />
+  <file path="mouse_gatt.h" />
+  <file path="mouse_hw.h" />
+  <file path="nvm_access.h" />
+  <file path="scan_param_service.h" />
+  <file path="scan_parameters_uuids.h" />
+  <file path="sensor.h" />
+  <file path="user_config.h" />
+  <file path="dev_info_service.h" />
+ </folder>
+ <folder name="Assembler Files" >
+  <extension name="asm" />
+  <file path="quad_decoder.asm" />
+ </folder>
+ <folder name="GATT db files" >
+  <extension name="db" />
+  <file path="app_gatt_db.db" />
+  <file path="battery_service_db.db" />
+  <file path="dev_info_service_db.db" />
+  <file path="gap_service_db.db" />
+  <file path="gatt_service_db.db" />
+  <file path="hid_service_db.db" />
+  <file path="scan_parameters_db.db" />
+ </folder>
+ <file path="mouse_csr100x.keyr" />
+ <file path="mouse_csr101x_A05.keyr" />
+ <properties currentconfiguration="Release" >
+  <configuration name="Debug" >
+   <property key="csr100x_keyr" >mouse_csr100x.keyr</property>
+   <property key="csr101x_a05_keyr" >mouse_csr101x_A05.keyr</property>
+   <property key="debugtransport" ></property>
+   <property key="defines" ></property>
+   <property key="libs" ></property>
+   <property key="master_db" >app_gatt_db.db</property>
+   <property key="output" ></property>
+  </configuration>
+  <configuration name="Release" >
+   <property key="csr100x_keyr" >mouse_csr100x.keyr</property>
+   <property key="csr101x_a05_keyr" >mouse_csr101x_A05.keyr</property>
+   <property key="debugtransport" ></property>
+   <property key="defines" ></property>
+   <property key="libs" ></property>
+   <property key="master_db" >app_gatt_db.db</property>
+   <property key="output" ></property>
+  </configuration>
+ </properties>
+</project>
